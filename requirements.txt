@@ -1,0 +1,7 @@
+pandas  
+numpy 
+matplotlib.pyplot 
+seaborn
+scipy.stats 
+mpl_toolkits.mplot3d 
+Axes3D
