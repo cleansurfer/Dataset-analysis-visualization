@@ -730,14 +730,14 @@ print(f"Mode: {mode_value:.2f}")
 print(f"Variance: {variance_value:.2f}")
 print(f"Standard Deviation: {std_value:.2f}")
 
-#امید های ریاضی
+# mathematical expected values
 import pandas as pd
 import numpy as np
 from scipy.stats import  bernoulli
 import seaborn as sns
 
 ####################
-###    برنولی   ###
+###    bernoulli ###
 ####################
 
 
@@ -749,7 +749,7 @@ from scipy import stats
 
 
 ####################
-###   باینومیال  ###
+###   binomial   ###
 ####################
 
 x=stats.binom(10,0.2)
@@ -773,7 +773,7 @@ from scipy.stats import  poisson
 import seaborn as sns
 
 ####################
-###    پواسون    ###
+###    poisson   ###
 ####################
 
 
@@ -785,7 +785,7 @@ from scipy.stats import  uniform
 
 
 ####################
-###   یونیفورم  ###
+###   uniform    ###
 ####################
 
 
@@ -797,7 +797,7 @@ from scipy.stats import  norm
 
 
 ####################
-###   یکنواخت   ###
+###   normal     ###
 ####################
 
 data_normal=norm.rvs(size=16000,loc=20,scale=5)#loc=انحراف معیار
@@ -809,7 +809,7 @@ from scipy.stats import  expon
 
 
 ####################
-###    نمایی    ###
+###  exponential ###
 ####################
 
 
@@ -817,3 +817,4 @@ from scipy.stats import  expon
 df=expon.rvs(size=30000,loc=1.75,scale=3)
 ax=sns.distplot(df, bins=100, kde='True', color='g', hist_kws={'linewidth':9, 'alpha':0.3 })
 ax.set(xlabel='Exponential Distribution' ,ylabel='Frequancy')
+
