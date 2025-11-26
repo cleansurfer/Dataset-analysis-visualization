@@ -1,19 +1,24 @@
 # Sleep Health & Lifestyle Data Analysis
 
-##---> Project Overview:
+
+---> Project Overview:
 This project explores the relationship between various lifestyle factors and sleep health using a dataset of personal health and lifestyle metrics. It focuses on visualizing patterns, correlations, and distributions for attributes such as age, occupation, physical activity, stress, heart rate, and sleep quality.
 The goal is to provide insights into how lifestyle choices impact sleep duration, quality, and overall wellness.
+
 
 ---> Dataset:
 Source: Sleep_health_and_lifestyle_dataset.csv (downloaded from Kaggle)
 
+
 ---> Key Features:
 Age / Occupation / Sleep Duration / Quality of Sleep / Physical Activity Level / BMI Category / Blood Pressure / Heart Rate / Daily Steps / Stress Level
+
 
 ---> Data Preprocessing:
 Missing values handled by replacing them with column means (e.g., Heart Rate).
 Dataset read using pandas for structured analysis.
 Correlation matrix computed to identify relationships between features.
+
 
 ---> Visualizations:
 1. Bar Plots
@@ -42,11 +47,13 @@ Correlation matrix computed to identify relationships between features.
    3D Surface (trisurf) & Line Plot: Visual representation of trends in three dimensions.
    3D Bar Plot: Three-dimensional bar charts for Age, Daily Steps, Heart Rate, Sleep, and Stress Level.
 
+
 ---> Statistical Analysis:
 1. Measures calculated for key variables:
    Mean / Median / Mode / Variance / Standard Deviation
 2. Distributions studied using:
    Bernoulli / Binomial / Poisson / Uniform / Normal / Exponential
+
    
 ---> Tools & Libraries:
 1. Python 3
@@ -56,18 +63,22 @@ Correlation matrix computed to identify relationships between features.
 5. scipy.stats for statistical distributions
 6. mpl_toolkits.mplot3d for 3D visualizations
 
+
 ---> Insights:
 Correlations between lifestyle factors and sleep patterns can be identified.
 Visualizations highlight trends and anomalies.
 3D plots provide multi-dimensional perspectives on relationships between physical activity, heart rate, sleep quality, and stress levels.
+
 
 ---> Usage:
 Clone the repository.
 Place the dataset Sleep_health_and_lifestyle_dataset.csv in the working directory.
 Run the Jupyter Notebook or Python script to reproduce visualizations and statistical analysis.
 
+
 ---> Future work:
 Add ML prediction (regression / classification)
 Perform time-series analysis 
 Deploy visual dashboard using Streamlit
+
 
