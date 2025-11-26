@@ -65,3 +65,8 @@ Visualizations highlight trends and anomalies.
 Clone the repository.
 Place the dataset Sleep_health_and_lifestyle_dataset.csv in the working directory.
 Run the Jupyter Notebook or Python script to reproduce visualizations and statistical analysis.
+
+---> Future work:
+Add ML prediction (regression / classification)
+Perform time-series analysis 
+Deploy visual dashboard using Streamlit
