@@ -1,6 +1,6 @@
 # Sleep Health & Lifestyle Data Analysis
 
----> Project Overview:
+##---> Project Overview:
 This project explores the relationship between various lifestyle factors and sleep health using a dataset of personal health and lifestyle metrics. It focuses on visualizing patterns, correlations, and distributions for attributes such as age, occupation, physical activity, stress, heart rate, and sleep quality.
 The goal is to provide insights into how lifestyle choices impact sleep duration, quality, and overall wellness.
 
@@ -70,3 +70,4 @@ Run the Jupyter Notebook or Python script to reproduce visualizations and statis
 Add ML prediction (regression / classification)
 Perform time-series analysis 
 Deploy visual dashboard using Streamlit
+
